@@ -1,0 +1,194 @@
+<l7:Bundle xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
+            <l7:References>
+                <l7:Item>
+                    <l7:Name>gatewayobcertificate</l7:Name>
+                    <l7:Id>00000000000000000000000000000002:gatewayobcertificate</l7:Id>
+                    <l7:Type>SSG_KEY_ENTRY</l7:Type>
+                    <l7:TimeStamp>2020-09-04T15:54:47.758Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:PrivateKey alias="gatewayobcertificate" keystoreId="00000000000000000000000000000002" id="00000000000000000000000000000002:gatewayobcertificate">
+                            <l7:CertificateChain>
+<l7:CertificateData>
+    <l7:IssuerName>CN%3Dopenbankingsigningcertificate</l7:IssuerName>
+    <l7:SerialNumber>10865574959081061563</l7:SerialNumber>
+    <l7:SubjectName>CN%3Dgatewayobcertificate</l7:SubjectName>
+    <l7:Encoded>MIIDKjCCAhKgAwIBAgIJAJbKRttkZ/y7MA0GCSqGSIb3DQEBDAUAMCgxJjAkBgNVBAMTHW9wZW5iYW5raW5nc2lnbmluZ2NlcnRpZmljYXRlMB4XDTE3MTExMzExMTMwMloXDTM3MTEwODExMTMwMlowHzEdMBsGA1UEAxMUZ2F0ZXdheW9iY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQClrkvZGL3EY0ghcbei0L7/3Iaotwfg6C451+lCaCmeu26GfeuqUefs1HL9wCa2RHUJyemcLWgCYwka3cCZQATV06+oO+5lxM1V6Tf5bBQXtPMeSgXYlYRQBuwGVyC+BRlSIh2N0Gs8l3z/HSP9vL4UhnIbMh5CICPmhIwZpdUoDC9Mxfq1KqbvHNhtWaNWVOYfO2+2ql8xAYltHXjahphJeP/ZNQ4pgreBFA/R2nPj8Q1L2Gxgsa8Z1n8Fo9Kh2L71xaHer82VtNTigU1blL3fLtU0Q86t7VJ8Wjy7gpgWNZsc/KCrnnDKyh3qb51FXo6AMDBL/20srQGupViA6x/rAgMBAAGjYDBeMAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/BAQDAgXgMB0GA1UdDgQWBBR/2FsDTX/9lzMq4HYk4ZqITQ7a1zAfBgNVHSMEGDAWgBSQpxyLSlzmLhVUsOlr7QgQ6BzjTTANBgkqhkiG9w0BAQwFAAOCAQEAcyijjzwjkpYlg0rk58yiRSbjrQ3GuUf0xHmr2P9lYzC3/hXbdfkWtBtGk67w7hgw/FcC/pvAHmzr+9fbLyzpDfjV4IS/O+jvNJy4ucTKLd8oxAPTQv6EDUDhkzozSDWHKB+2uhnbHj27qi/29A/5TcQacwhIdWjoKkxEYzqSPgZToZD8NtQUu2wNsuTdD7GCbXiVcJjTF6NMGyRvTqMrvL2joq1M2vMDP3OkZxVAIB3cRj/KR4ecrnykaIZ7ajMRKYWgoHKpqiWFD1x0+WMqpdw1TEq6xzE1uI6AMIFezZVfqvSaLPtuBJoMUQLtqpoOi94m3zaMJUzSxetnLMphmQ==</l7:Encoded>
+</l7:CertificateData>
+<l7:CertificateData>
+    <l7:IssuerName>CN%3Dopenbankingsigningcertificate</l7:IssuerName>
+    <l7:SerialNumber>5418432911485298263</l7:SerialNumber>
+    <l7:SubjectName>CN%3Dopenbankingsigningcertificate</l7:SubjectName>
+    <l7:Encoded>MIIDOjCCAiKgAwIBAgIISzIkBmBd5lcwDQYJKoZIhvcNAQEMBQAwKDEmMCQGA1UEAxMdb3BlbmJhbmtpbmdzaWduaW5nY2VydGlmaWNhdGUwIBcNMTcxMTEzMTEwNDEwWhgPMjA2NzExMDExMTA0MTBaMCgxJjAkBgNVBAMTHW9wZW5iYW5raW5nc2lnbmluZ2NlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjxfrOAC5IU3LU8dcZoHR6k0CCqvS69lNdNCBekACumBcYw2KOuT7HvUQZ9LWwSqdJO1Qz4SaQj+EUrxmd1AcYMRa5/G6gHWnkcc7pt1ejnUnV/Vh/zSb4ZEZ8EeWsJLN/V3idrLJ+3LWLqJb7Lu6FK3YJVKkM508zMcT5qi8Zuicgfk1WXWR8f+DgDJBJ/E8ENqBKVkwdisxkUjmj7ijRREzMN0S6uJwCy6kaPRnDDd+PfRcJyH8Zz1Qd3SvhzJsZIixQDwFjX4960zrrcOWWUZg+vGAKFDZN7H2iSNESkYWnkwwDmTs68kyNPmto8coa0mo1aWOnhA8+4voRvd6JwIDAQABo2YwZDASBgNVHRMBAf8ECDAGAQH/AgEBMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUkKcci0pc5i4VVLDpa+0IEOgc400wHwYDVR0jBBgwFoAUkKcci0pc5i4VVLDpa+0IEOgc400wDQYJKoZIhvcNAQEMBQADggEBAFTBa9YQ2TukxdyqTS+wS7OVus1A2pQTva89ODTijeNkH37YbMkT2RYzbUxa9B1Q/2iGVu674IlVju3imj3EnrFWIux0rQcLzhgMtChrv+6fVyi+lE2PMVNlwftLwfxg47lr77Txo5I01MHtcMxtHN28NoU8LsIiIRxt7GnLcd9z2ohIqppKd/XxOQ8OcHLCBVqj1EUdPs0NFBL26kgVrzOJQ8eFt1l2upz0b09f9CYDZW8IX5Wl5vvVIaPkeg1mIwdXOHAwlCmGtPOoCR3eiPUUdQbPq7YcXkzxveQikxJCVMYhXQqgVjcRmpN6gd2uWle1Lty7lRIimO4zgTITjGQ=</l7:Encoded>
+</l7:CertificateData>
+                            </l7:CertificateChain>
+                            <l7:Properties>
+<l7:Property key="keyAlgorithm">
+    <l7:StringValue>RSA</l7:StringValue>
+</l7:Property>
+<l7:Property key="keyData">
+    <l7:StringValue bundleKey="$L7C2$1bead,SvfPCs/rbsXUbZq44ZDxwEkE9jnHGSh0S2N39VDjTv8=$LDYQeXPV8drMtuM2pTGVU8gZdSJLPw2hlwoyyKG2sXXi54DaqvN/NhGtHUiBocGVZtLcrtvJIq7nOq1+aPGYUyJUG4ShIAcZz3TqzoesLCmjpdCKNOdUxLdnmlL9d+Cn" algorithm="RSA">$L7C2$1,B4++jzw0F6+hW+rZEXhF/SkcQBMcdBR42Q0PnWh5aQw=$C917Rks9BGpvaC9qi+L6x4iEPv0l/3eR5ce9IXq5iECSSG/fut+WkPjH7dZyg+3pgFLk4yIAACWwoX/esjn33F95jB/YU+oLSqWUtafSaAeWenF+2p2x2pXXNht+HhtlmJtAIdncSO6feONeY6+efhHywzrWP2U+jkl1AqazGapp83NIzi9kJMl5vxjF31cxkHlYXDh/uQznA6+XwwD2HE0Rxs4HYuuC+Nfr9IhKnNFSP+/r0DC+ZucuLCVFZeW2M6c2argtiUXw7GgmuJv72M6CXUFlFlOf6h3YtJ2zqasxR8KT18D38Mrjv/mbfOqY0oZhhwFGDm83WuOawNV4LbazpI096J8GwFFRbkUeD6NbFby4egyVJp/OmdMDdOL24tNMwcm1azzRIeX+q21XuYnIU9psknrNH6XPyUvswHhq9DCfOcsdf3HPdcivdXNaQwgo12cmHPfq2FI40eA1nvg8WQiynuDzCjJN4Ug+IuFmF+kwSBIBl+e5u2POef4yV/rMdJJkt52vKG7SwAXl/2o2dE6/n/qm5bc2ONEy/BRUwxr4Q48RpyvlLOrGNA3QlWC9L0KH2ToZX+xtwbbT8xOQTzQweMrFEQe+Pja7vidZznLnGpKtFaBeO5fIiXeUpK9CAk4kTvs3R0Bku+Ji0f/geSqzj/rrO4GglOuJhe1Nu/9hZr+4oPXVvWEqpAYXhDpTt7v62JFc4sIqgSWVa4KwrYD+S72vWT198SGcaue9xXdLYB3mBZyw83pDM7fqaMJrmBFrjGl2Qqa0saar4FJQeJesmaPaDgeQ7ivVqkQHj44FIY6M0spWo+bFo6K5cMF4MTBsAkSZq6tW3SPudII0lgGGlOyjzwCKkIJ5XXgkXbVenbRaHLWJQhQ/vQVA0N46TJyZh3MvEd9DjXCQHALesbXJBiWZ0byw+zBBX5QksOFeo9eYg8jRh4T7OsKYpjy4+Vjd4Zher371V9ZJ9tcVdLPZ+ZVqjhnL6QA3rxwzN6T9aAhEKAWIFiBz56r0CnZB+rhod1FP+QfuF7jdf21mN7kYGcWj4K2/AFaNtUhn3SKDTXcMzyLWra0UpTuxBEXviDUEcuDKGrnpEyyA13kbyIsb09dVsiMFEWdJtmwNd8lJzSBtx2TukFTEkTngCGNGz4PwP3eyB2SPWAjimzyIuv+LlyTXcSO6CGt12DbJ6fWMpUvTNdefaOJkIz0bPejxxmnptVU4x5TjFPUlhcuiPxT0UcJKo0i8VsNRWt7f1VQtjl5Opfw29nASkFeLiKpvdzOOK4YSn9KCjYfZsUu+cixcSbrLQUo4DFayJhmw01SDIK9kd6NoGyEXDUhf8eAYv3jeMFR8TV+e3DtwG3WwkC50nlLaoMM+D7Qaojo1Zlb28aLwbolZTC/nv3WlQDg2rPo0IGvi2FcN70YLep5pCcfSkTeBGiCjrw9HU6Pn7OtDNsJVU1FyBqc+OyhnDBMgmov/A7+b/Mmn01mjBOyUGOuVZH6vYsWk+Xh3KaVcKO9ZghzaE/5i36+SrM3A9jqlSvPF/BykzVxJwY5wyrDmJfAEyjCQf2T4NJwXTpQfdbV4ejENxTwYSvGY+Mv5zzGob0G6r084WZ5HRBH6pHimMzqa8iTGTqiGwGQFKTPJHtGhuFcK/qRSGI+77wfVP/YFfZ9vxC1HtwmaaM1vnnV/MWyv1jBVGewqELdCz40=</l7:StringValue>
+</l7:Property>
+                            </l7:Properties>
+                        </l7:PrivateKey>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>SSL</l7:Name>
+                    <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
+                    <l7:Type>SSG_KEY_ENTRY</l7:Type>
+                    <l7:TimeStamp>2020-09-04T15:54:47.758Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:PrivateKey alias="SSL" keystoreId="00000000000000000000000000000002" id="00000000000000000000000000000002:SSL">
+                            <l7:CertificateChain>
+<l7:CertificateData>
+    <l7:IssuerName>CN%3D73b67b20bc2b</l7:IssuerName>
+    <l7:SerialNumber>12605120255154802767</l7:SerialNumber>
+    <l7:SubjectName>CN%3D73b67b20bc2b</l7:SubjectName>
+    <l7:Encoded>MIIC8zCCAdugAwIBAgIJAK7uYhZXlVBPMA0GCSqGSIb3DQEBDAUAMBcxFTATBgNVBAMTDDczYjY3YjIwYmMyYjAeFw0xODA5MjAxNDUxMjRaFw0yODA5MTcxNDUxMjRaMBcxFTATBgNVBAMTDDczYjY3YjIwYmMyYjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIXzSXQjE3cqOrbwLBGSnoIrb5+ehD8fKPUoWlPZHI0BbYdxmzlHyX5XbchYdGaPAAY0y7GapTTuE8QtTx0dA6TzMV9Pf3qc94gAD3YvKSrSb19iViDvCt2qXKHgVp+QrI6PZm5m2TpaDpX3LSY3nFLySHY3ASTTSuGfOvxMurOm9thogo1l0lSrO97yPNX8XNvKqaAqWKX9D8VKgIRdVyvqDgagAjnZLUpTt/WPEy3OgIqhk22AUS7RECcGoWMX3GPgmwtd/+OzJ9agPII6SkDPMDNNGXPZ8NjnAOekAGVZGPg+N4fp4wFAom/Yrt331hwiWFMs7SDYhtz0RBTWYgMCAwEAAaNCMEAwHQYDVR0OBBYEFEwXZO5BVfNsKHiePvesH7V4bLSnMB8GA1UdIwQYMBaAFEwXZO5BVfNsKHiePvesH7V4bLSnMA0GCSqGSIb3DQEBDAUAA4IBAQAkkazaxyJ1ygsSbL90+3YV7YwD55fPf+s0Lm33vr1CbqEflT6+Tv2N1Pmgh2kViPumtzjDVPlV2eo57aahv6X2B9wDxaGmOtJBdrZBxQ1URmwLuZ2NjsxMg+wfe75tEVm8V8NaitzJoRyVY6szZBjbK160e9hRFdIyGmOZ99BZv09GUa/HXhGHL1PxI+slnINqcgY99cfCIVUenuYSWSuvTI9wA0GTUNcNxy9YE5jZE1I7Qji7C//mUXbIa5EtwIuEw48nxbmOiivhlIPB38g6AiFtU7oMwPeu9S2IZzEFKewZjsb92pCoM/pNxRyumRtK78aFqCgwCvTTRiEtG7SU</l7:Encoded>
+</l7:CertificateData>
+                            </l7:CertificateChain>
+                            <l7:Properties>
+<l7:Property key="keyAlgorithm">
+    <l7:StringValue>RSA</l7:StringValue>
+</l7:Property>
+<l7:Property key="keyData">
+    <l7:StringValue bundleKey="$L7C2$1bead,SvfPCs/rbsXUbZq44ZDxwEkE9jnHGSh0S2N39VDjTv8=$LDYQeXPV8drMtuM2pTGVU8gZdSJLPw2hlwoyyKG2sXXi54DaqvN/NhGtHUiBocGVZtLcrtvJIq7nOq1+aPGYUyJUG4ShIAcZz3TqzoesLCmjpdCKNOdUxLdnmlL9d+Cn" algorithm="RSA">$L7C2$1,o/0JS9J3LPc6r3AEUs3QZaixJ81zfQFjTOt9HsHWS9U=$PHhINA6Td7keIxE8TtztR07Xjp1BZL3cW9/K1lf3+zh76nYkg9bOzEA6V8lH+MV8AiAIJYMBFdnUvItNOjwTLQs2WUKJ/wplS1gmYFuehW25XI/GESwnMeLlFq/9Ypqjel4UOU2M5xgqSsppVN7kbEc+rKNe4heY+qGiknore2yy7ouD4wL/yQPx2+wI3LJNgskWj3lc+VePGAcQvqpe1rioJdq6SOqRuCO6w3vVdI7y+BnEO5OYM9NEcohuDxDWJ4MzMjb16KIbTYFFfXOWQEyUM1rKb3BBhKNod4zlwK6po1fBTNim6HF0UVaKLNkhaOoeEu32Kc+gurfdEJ4tpW+Ye/Z7nb9OMuDbf/858D7X1NKlCL/pijCJ89wn+mJUGbY2XJfH1pCQkgsNhwqFGFKR011Lp8Xh4+GohtQbUtDIOiCO9np4T21uON8XyoljnesOy+565syFsLk5LezL2mzWw3BX88u/kyaeRnHeax7+BjnPpdeN/ovMIn9cJfGWyfnpY9B2osvmm7yj5PbLkuCgzCALT0Yi4GAs1JVvoCvKkMaPmEXc3ghuTvl0+KMNYe3e15A+3EmzIoTxARAuPWpL1fH0zZZKREWrx9dqVdKtQDu5iZ3+IGRVx/bw8oVfJakeNR1nmGEJgH6wfkBDd6BLmUJWfcfo4Tczk0dPyh8X4MXx7vrGZmJHAz8se1nFSzopbnIIJzYOtCqiMF3/16SDYvTR8C4PfJSldCYY33GyaV3hpsEdpLwymtnNiGx5xgWl2gKOBrdszAkNR7MTsi6DUga0F0YOMd+IUtxb9wthyTmsxe7TuvVCm8sHitCSUUVvykWOT9v5kSOLyVkFnYq7dkH+kMaX40aEe+Li7Gn7su8AqczU+90m7L4mcaam8crveXCzrNFFikziF8W4TXGNkG5X9Bq2bIPukGS5vbmiCKKEOLHJ8zb27nWFfjiGhQrBLrEgxXUhLXi2iEDFXnTA2Mrnf9iZvWfef3dh/Rh3Xel0Qq8He1Gm8Gr2wZ1qW/bpd2W6Lm4ns9RUUdrdYeHPhF9Of0yY922Kwc1/Yp8SW0rYZqOOQTf/e05Qew7VkFRV1aUOCt2iEBBGdcwCQ4vTNnW/AyCpJenAVLvudHZMIlL30oRBsTqGaRkwWN7V9Md30PWCFeQUHLs2NFUi9a6rHenPWNOlu9AckZk+qAV/An06CBc6OR1xHL4LwKpHr0d/6pjYjA+IPtwbAuSBjcQSa2pIW+OOmZ6Mg1A+WBuMH6b47+hJgxk55d6bJpLRan1hcASi7hxkLUqpwfd/DP8o1yNe097kIlNglJ1JpfaSsoXpeOrRpuQs3flFY7ENunfl6hGb97RudFxDEC463m+UyYuo/dfR1YqYW8lgCqV3seiIRDKFvLLqubxC4xH0hhkyqXYt5cwtCKlPC3/Mujc7frbCQ+qT3e0kU9VBtV0fDHzAV8sEFbMprBCrNkPoFiTdMCBuu4iLw+XX5ci1NbeHZ78oYPHUgjg2JL4GZezr0sS5FT9MzG1e5eq4uEKOB9aLI5cb20TTW8Aty2qMptqQGfBdCGWHsoItbEMPWIPSkxnAyzPiSpcbp+SAO/PLkv6rV4uiZhrug094kbGZBaH7yiBS9weqqr4AmFQ8Ls7mX7URN0Q4KegXp1wjEI9WkfsVc1a/SEQJazS9vN6pK6MBOv+zGW/8L8bZPsnSeuQ=</l7:StringValue>
+</l7:Property>
+<l7:Property key="specialPurposes">
+    <l7:StringValue>Default SSL Key</l7:StringValue>
+</l7:Property>
+                            </l7:Properties>
+                        </l7:PrivateKey>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>jwt/e/s</l7:Name>
+                    <l7:Id>2e5c491ec3e78f64becda497eda56f3e</l7:Id>
+                    <l7:Type>SERVICE</l7:Type>
+                    <l7:TimeStamp>2020-09-04T15:54:47.760Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Service id="2e5c491ec3e78f64becda497eda56f3e" version="2">
+                            <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="2e5c491ec3e78f64becda497eda56f3e" version="2">
+<l7:Name>jwt/e/s</l7:Name>
+<l7:Enabled>true</l7:Enabled>
+<l7:ServiceMappings>
+    <l7:HttpMapping>
+        <l7:UrlPattern>/jwt/s/e</l7:UrlPattern>
+        <l7:Verbs>
+            <l7:Verb>GET</l7:Verb>
+            <l7:Verb>POST</l7:Verb>
+            <l7:Verb>PUT</l7:Verb>
+            <l7:Verb>DELETE</l7:Verb>
+        </l7:Verbs>
+    </l7:HttpMapping>
+</l7:ServiceMappings>
+<l7:Properties>
+    <l7:Property key="internal">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="policyRevision">
+        <l7:LongValue>8</l7:LongValue>
+    </l7:Property>
+    <l7:Property key="soap">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="tracingEnabled">
+        <l7:BooleanValue>true</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="wssProcessingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+</l7:Properties>
+                            </l7:ServiceDetail>
+                            <l7:Resources>
+<l7:ResourceSet tag="policy">
+    <l7:Resource type="policy" version="7">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
+    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
+        &lt;L7p:SetVariable&gt;
+            &lt;L7p:Base64Expression stringValue=&quot;ew0KCSJ0ZXN0Ijoic29tZXRoaW5nIiwNCgkibnVtYmVyIjoxMA0KfQ==&quot;/&gt;
+            &lt;L7p:VariableToSet stringValue=&quot;test.json&quot;/&gt;
+        &lt;/L7p:SetVariable&gt;
+        &lt;L7p:SetVariable&gt;
+            &lt;L7p:Base64Expression stringValue=&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjMifQ==&quot;/&gt;
+            &lt;L7p:VariableToSet stringValue=&quot;jwthead&quot;/&gt;
+        &lt;/L7p:SetVariable&gt;
+        &lt;L7p:SetVariable&gt;
+            &lt;L7p:Base64Expression stringValue=&quot;eyJraWQiOiIzIn0=&quot;/&gt;
+            &lt;L7p:VariableToSet stringValue=&quot;jwtheadkid&quot;/&gt;
+        &lt;/L7p:SetVariable&gt;
+        &lt;L7p:EncodeJsonWebToken&gt;
+            &lt;L7p:HeaderAction stringValue=&quot;Merge to Generated Header&quot;/&gt;
+            &lt;L7p:KeyAlias stringValue=&quot;gatewayobcertificate&quot;/&gt;
+            &lt;L7p:KeyGoid goidValue=&quot;00000000000000000000000000000002&quot;/&gt;
+            &lt;L7p:SignPayload booleanValue=&quot;true&quot;/&gt;
+            &lt;L7p:SignatureAlgorithm stringValue=&quot;RS256&quot;/&gt;
+            &lt;L7p:SignatureSourceType intValue=&quot;1&quot;/&gt;
+            &lt;L7p:SourceHeaders stringValue=&quot;${jwtheadkid}&quot;/&gt;
+            &lt;L7p:SourceVariable stringValue=&quot;${test.json}&quot;/&gt;
+            &lt;L7p:TargetVariable stringValue=&quot;jwt&quot;/&gt;
+        &lt;/L7p:EncodeJsonWebToken&gt;
+        &lt;L7p:HttpRoutingAssertion&gt;
+            &lt;L7p:ProtectedServiceUrl stringValue=&quot;http://localhost:8080/jwk&quot;/&gt;
+            &lt;L7p:ProxyPassword stringValueNull=&quot;null&quot;/&gt;
+            &lt;L7p:ProxyUsername stringValueNull=&quot;null&quot;/&gt;
+            &lt;L7p:RequestHeaderRules httpPassthroughRuleSet=&quot;included&quot;&gt;
+                &lt;L7p:ForwardAll booleanValue=&quot;true&quot;/&gt;
+                &lt;L7p:Rules httpPassthroughRules=&quot;included&quot;&gt;
+                    &lt;L7p:item httpPassthroughRule=&quot;included&quot;&gt;
+                        &lt;L7p:Name stringValue=&quot;Cookie&quot;/&gt;
+                    &lt;/L7p:item&gt;
+                    &lt;L7p:item httpPassthroughRule=&quot;included&quot;&gt;
+                        &lt;L7p:Name stringValue=&quot;SOAPAction&quot;/&gt;
+                    &lt;/L7p:item&gt;
+                &lt;/L7p:Rules&gt;
+            &lt;/L7p:RequestHeaderRules&gt;
+            &lt;L7p:RequestParamRules httpPassthroughRuleSet=&quot;included&quot;&gt;
+                &lt;L7p:ForwardAll booleanValue=&quot;true&quot;/&gt;
+                &lt;L7p:Rules httpPassthroughRules=&quot;included&quot;/&gt;
+            &lt;/L7p:RequestParamRules&gt;
+            &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet=&quot;included&quot;&gt;
+                &lt;L7p:ForwardAll booleanValue=&quot;true&quot;/&gt;
+                &lt;L7p:Rules httpPassthroughRules=&quot;included&quot;&gt;
+                    &lt;L7p:item httpPassthroughRule=&quot;included&quot;&gt;
+                        &lt;L7p:Name stringValue=&quot;Set-Cookie&quot;/&gt;
+                    &lt;/L7p:item&gt;
+                &lt;/L7p:Rules&gt;
+            &lt;/L7p:ResponseHeaderRules&gt;
+            &lt;L7p:ResponseMsgDest stringValue=&quot;jwk&quot;/&gt;
+            &lt;L7p:SamlAssertionVersion intValue=&quot;2&quot;/&gt;
+        &lt;/L7p:HttpRoutingAssertion&gt;
+        &lt;L7p:DecodeJsonWebToken&gt;
+            &lt;L7p:KeyId stringValue=&quot;3&quot;/&gt;
+            &lt;L7p:KeyType stringValue=&quot;JSON Web Key Set&quot;/&gt;
+            &lt;L7p:PrivateKeySource stringValue=&quot;${jwk.mainpart}&quot;/&gt;
+            &lt;L7p:SourcePayload stringValue=&quot;${jwt.compact}&quot;/&gt;
+            &lt;L7p:TargetVariablePrefix stringValue=&quot;jws&quot;/&gt;
+            &lt;L7p:ValidationType stringValue=&quot;Using Recipient Key From Context Variable&quot;/&gt;
+        &lt;/L7p:DecodeJsonWebToken&gt;
+        &lt;L7p:HardcodedResponse&gt;
+            &lt;L7p:Base64ResponseBody stringValue=&quot;UGF5bG9hZAoke3Rlc3QuanNvbn0KU2lnbmVkIGp3dDoKJHtqd3QuY29tcGFjdH0KCkRlY3J5cHRlZCBqd3M6Ci0tdHlwZQoke2p3cy50eXBlfQotLWhlYWRlcm5hbWVzCiR7andzLmhlYWRlci5uYW1lc30KLS1oZWFkZXIKJHtqd3MuaGVhZGVyfQotLXBheWxvYWQKJHtqd3MucGF5bG9hZH0KLS1zaWduYXR1cmUKJHtqd3Muc2lnbmF0dXJlfQotLWNpcGhlcl90ZXh0CiR7andzLmNpcGhlcl90ZXh0fQotLWVuY3J5cHRlZF9rZXkKJHtqd3MuZW5jcnlwdGVkX2tleX0KCgpqd3MgdmFsaWRhdGlvbiBzaWduYXR1cmU6CiR7andzLnZhbGlkfQo=&quot;/&gt;
+            &lt;L7p:ResponseContentType stringValue=&quot;text/plain; charset=UTF-8&quot;/&gt;
+        &lt;/L7p:HardcodedResponse&gt;
+    &lt;/wsp:All&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+</l7:ResourceSet>
+                            </l7:Resources>
+                        </l7:Service>
+                    </l7:Resource>
+                </l7:Item>
+            </l7:References>
+            <l7:Mappings>
+                <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:gatewayobcertificate" srcUri="https://cd41483a6aca:8443/restman/1.0/privateKeys/00000000000000000000000000000002:gatewayobcertificate" type="SSG_KEY_ENTRY"/>
+                <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://cd41483a6aca:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" srcUri="https://cd41483a6aca:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" type="FOLDER">
+                    <l7:Properties>
+                        <l7:Property key="FailOnNew">
+                            <l7:BooleanValue>true</l7:BooleanValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:Mapping>
+                <l7:Mapping action="NewOrExisting" srcId="2e5c491ec3e78f64becda497eda56f3e" srcUri="https://cd41483a6aca:8443/restman/1.0/services/2e5c491ec3e78f64becda497eda56f3e" type="SERVICE"/>
+            </l7:Mappings>
+        </l7:Bundle>
