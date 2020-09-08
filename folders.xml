@@ -3,5 +3,8 @@
       <l7:Folder id="0000000000000000ffffffffffffec76" version="0">
         <l7:Name>Root Node</l7:Name>
       </l7:Folder>
+      <l7:Folder folderId="0000000000000000ffffffffffffec76" id="36216f5a6b026aae4546e526883bdc53" version="0">
+        <l7:Name>Multipart</l7:Name>
+      </l7:Folder>
     </l7:Folders>
   </l7:Export>
