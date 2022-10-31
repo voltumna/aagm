@@ -1,0 +1,40 @@
+{
+    "policy": [
+        {
+            "guid": "6645916f-2646-4ab8-9675-c46a4a2dcbd4",
+            "policyDetail": {
+                "folderId": "6b6743e42aa9cd21af674e2ed4c29057",
+                "guid": "6645916f-2646-4ab8-9675-c46a4a2dcbd4",
+                "id": "6b6743e42aa9cd21af674e2ed4c2c26b",
+                "name": "auth",
+                "policyType": "Include",
+                "properties": {
+                    "property": [
+                        {
+                            "key": "revision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "voonair\/auth.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "6b6743e42aa9cd21af674e2ed4c2c26b"
+        }
+    ]
+}

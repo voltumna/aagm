@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsp:Policy xmlns:L7p="http://www.layer7tech.com/ws/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy">
+    <wsp:All wsp:Usage="Required">
+        <L7p:CommentAssertion>
+            <L7p:Comment stringValue="Policy Fragment: auth"/>
+        </L7p:CommentAssertion>
+        <L7p:HttpBasic/>
+        <L7p:Authentication>
+            <L7p:Enabled booleanValue="false"/>
+            <L7p:IdentityProviderOid goidValue="0000000000000000fffffffffffffffe"/>
+        </L7p:Authentication>
+        <L7p:MemberOfGroup>
+            <L7p:GroupId stringValue="6b6743e42aa9cd21af674e2ed4c2b387"/>
+            <L7p:GroupName stringValue="developers"/>
+            <L7p:IdentityProviderOid goidValue="0000000000000000fffffffffffffffe"/>
+        </L7p:MemberOfGroup>
+    </wsp:All>
+</wsp:Policy>
