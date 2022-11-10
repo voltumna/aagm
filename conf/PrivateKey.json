@@ -1,0 +1,37 @@
+{
+    "privatekey": [
+        {
+            "alias": "mautest",
+            "keystoreId": "00000000000000000000000000000002",
+            "certificateChain": {
+                "certificateData": [
+                    {
+                        "issuerName": "CN%3Dmautest",
+                        "serialNumber": "16067528450701499357",
+                        "subjectName": "CN%3Dmautest",
+                        "encoded": "MIIC6TCCAdGgAwIBAgIJAN77U\/8ai5vdMA0GCSqGSIb3DQEBDAUAMBIxEDAOBgNVBAMTB21hdXRlc3QwHhcNMjIxMTEwMDc0NjAxWhcNMjcxMTA5MDc0NjAxWjASMRAwDgYDVQQDEwdtYXV0ZXN0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArEQmtm2MFD3l1MKGDgGvzulZm0L4OyhDVVfrnj+Il70y7PvSv1SgeNngdJ3DlL7BTLT1MDNcw6Vtkcih0s7DHyk3qtkBuZs9Taj\/2K3aNhoKwTBHyT09C\/\/O7UzEZxPo0iJqLFomI70qQ\/KT6tvCNbw6OwfYghsZob+NQOgg1TZiumV9Rj5G\/JAn4K+0i+xBrY08lY1CXrRgJfc9c5E19G6t0BhJslEIkfeB8rs0hBbIcVK\/93zTiwnR9QxXZWFK8yjrIaQ3ACAJbq4RwD47Al2Vu4AoKZuTNm5wQY8y3JyAeNUDxZ6ta3N2Kfitc7XLo5lp9Yks3Qlaa+wQt+78ZwIDAQABo0IwQDAdBgNVHQ4EFgQUUczh3MjZ6eCQKOGD9XhbvsKsmWwwHwYDVR0jBBgwFoAUUczh3MjZ6eCQKOGD9XhbvsKsmWwwDQYJKoZIhvcNAQEMBQADggEBAKm\/idgaMpAa\/lKcpeN\/pXOC6Z94Lzld5wfzsvCTkpdhPANFC7frkO9pLK6PmoGFAIeV9+l\/gBBruMnliqOhl9St5ru69Kxq9ucgllHX+4RLSKi165Qi0TxyB6FjkjIQuDE7RfOYi3BUFpFnXqnEMSxpWVsJQMjAAWXbeUsSLRzxV78Zj+J8LMLXiXegS5YWrIXMnnxY8NoUUt2ZNiW\/skMQ99aOf3Fp5nUOtq5AafZjLEILu\/tA\/RbK+Mp4zKL45yi1vX3hmdjo7FdCfSJuKv9\/PuhW3D+jBinxrkU4onp6XxbKXhbII\/rCaucpJ+24KC85nNiFv4f3ie3lmVSKds0="
+                    }
+                ]
+            },
+            "properties": {
+                "property": [
+                    {
+                        "key": "keyAlgorithm",
+                        "stringValue": {
+                            "value": "RSA"
+                        }
+                    },
+                    {
+                        "key": "keyData",
+                        "stringValue": {
+                            "value": "$L7C2$1,0z57qAtrmVis852XDtlKDCCgrHN3YxBonpvUI+anAYk=$0UFWXwxDjVY1rHXNz\/8Wys\/xsgvDQlmNNlFs+cOHVgR+mOIKy5DpCnp8MfNNjHPeamEedvbc2bgvLEm\/UaRogs4ivwyoymAxdqWOof6Ty3gFfuU79nRw+vXxIi0evGqFPDfVatqdRRPJGXYm5LGkDrnx1Xa2cmPBR2UT4+Dl4gyt6GX0vhIbyYd9UZl09IqM8kAcGmdNyTi7wwWerKnlHXTLb+PIZ6IyezPXQ\/eEo4+smWpzIhFc8sYD5grkjnt6UL5+8EweCHaSHR5wRLdeqNXIhI3i8Mpeu6QjzWyl5vypkPeu+0KlMoh4onNa4B8PLad0R50hItpW3MO7kTILbIeAlIlLcLNVxSIcSIfhYmQTUOJy3DEl\/GrNhRy5OehoeHN0h\/qE1yNnyeXBchjpIRe24VzTncOMsSneX5Xa55TEW3icgTCOZlncyw8SF4+ill\/e1\/IZHvdYR69mj\/yvK28ara4PO8XWYDz5lNjO8WZzL3DEztMn1gQaAnVKHCot8sZTTaQk0QfO\/9dDVT2D4Y6cojZwoMPl7IT\/tuz9lfmykLcOI0x45Y3QymBDmalF31\/DOz2BP6SbLZxkWLZvi0I180WkOBQgkhL5jM+B4K3\/\/eCagJ7zFc+AOKb7ofmKlHN4dSt00\/HLpTvdO0CNzQbR5T4+Co8InfVRCtDUjBnXydm5WTUIiKgKuMVyedoL10RVOWR8wDBT7NXeYQCpmAULo4NWPumEVLpFAvi74i24dboXttg1W3O1F4GjFqzVFVex6aV27dFJUVpPlMpfr5\/u82RymcrmQyphJVhy2ECEkn3HaBqi1ZdRnsNl2eIBB+R61fQrkUnNHUNTJJtiz85kNnSLNKgwfR2RHpFR++R20uE52LRvpThcYUCdA8DZ2NxAXUkX+RFcwS\/gSbq40z12\/3Z\/F5X0k6B5FZz69oiXnRKPejxnxlM8uMifYxj4JBvfrqXM1sVeqnZmQYMNSsWLfBJ0+ioTjJ\/9DdvCQAcj5wUgeJ6DMcZO8gROpI274JtTWyJnRihCUit7wi0RxDJ6WHrEIs5P4b+IgVyPoYucb6wnFwJKul6YzxcVqEhLro0uuJoYbqc6Euph5m+VUowMxOG78AKXaxMwjhid3R3wk+e5kUt37y1GGRmKb2GEgwDhDW8dD7yLExBFNkmk6rKi751LDSYq6gcl1INK6nEX95bN2nNVgo63WRvj4SSeuIUNdAsazjDaSVDcQRiRT1AXYC5cY08d6Zdy3M5ayg8d63R\/2HpU9nRKqAjladKUOe0N9zL5z1Ow+39uF56sVunINLmBkTdxFoE9rc6+AtIRiBzZMAg97GyNNsGRfK2r5NGs83TrdXV+8uvcaifzP2UffmhyhA6OfSAPf9uZKIFotw496h6zuL9rB0mcTvehmoW8EUyKvPvV9nQ+NFpSPgfaT+k4kFKq+sWyxDdsCMNV60sFNnHChj31lVlJLVTR2kMuGkl5Jg8ZCXK+iVhPX2Z9RDJiSk\/UI5U2oEnIqiEfUkV0oT96UsnwHOyLt9Eq1ufFeHlLq5LCQtsUU6RU7nKzyvFpI4LDBocM6fl3WZDv7HM0+VI9Xaeg9iqdTqVztqXwXZB44W8cmB7iFw45ZEWoK9yJMcz650KXcqL76ttfrs3d803\/rgprAn2JnASeXnPFbeU\/Mgh1x2vTz2rlMzKLfUKOsy385ZcgC+TwPVQ=",
+                            "bundleKey": "$L7C2$1bead,VlmAfeCTrylC22wJRIbm7HWXfgtpedJRkEqm2wbTYkk=$nrtAYvnTicKUxm\/0urokb3qRWJq7vKsHUj7j8IKPVQhO60GLSD3ryHIWX0QxddnEVE6LJvOXfsjfXjtkjwlLGCK0ZisfSRXLa5mcPrpA6O576LYJFpEoNzkcAmlVbCRd",
+                            "algorithm": "RSA"
+                        }
+                    }
+                ]
+            },
+            "id": "00000000000000000000000000000002:mautest"
+        }
+    ]
+}
